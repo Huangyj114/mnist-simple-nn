@@ -1,0 +1,12 @@
+# 核心深度学习库 (注意：+cu126 需要额外索引源)
+torch==2.8.0+cu126
+torchvision==0.23.0+cu126
+
+# 数据处理与可视化
+numpy==2.0.2
+matplotlib==3.9.4
+pillow==11.3.0
+
+# 交互式画板依赖
+ipywidgets==8.1.9
+ipycanvas==0.14.3
