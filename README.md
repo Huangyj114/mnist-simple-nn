@@ -20,3 +20,18 @@
 pip install -r requirements.txt --extra-index-url https://download.pytorch.org/whl/cu126
 
 注：如果你没有 NVIDIA GPU 或者 CUDA 版本不同，请修改 requirements.txt，将带有 +cu126 的行改为 torch 和 torchvision（不指定版本），或者前往 PyTorch 官网 获取适合你电脑的安装命令。
+
+
+🚀 运行方式
+启动 Jupyter Notebook: jupyter notebook
+
+打开 simple_nn.ipynb，从上到下依次运行单元格。
+
+运行到画板部分时，在黑色区域手写数字，点击"识别"即可看到模型预测结果。
+
+📊 结果展示
+
+<img width="1416" height="465" alt="image" src="https://github.com/user-attachments/assets/5be2f979-443f-4336-bcce-b9e33d487f5c" />
+
+
+本项目地址：github.com/Huangyj114/mnist-simple-nn
